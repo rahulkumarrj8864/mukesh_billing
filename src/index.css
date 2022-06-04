@@ -1,0 +1,142 @@
+body {
+  /* background: #c49a90;
+  background-image: linear-gradient(90deg, #a50026, #d3322b, #f16d43, #fcab64, #fedc90, #faf8c0, #dcf1ec, #abd6e8, #76abd0, #4a74b4, #4a74b4);
+   */
+  /* display: flex;
+  position: relative; */
+  background-color: rgb(0, 0, 0);
+  color: rgb(250, 248, 248);
+}
+
+.container {
+  border: 5px solid;  
+  margin: 15px;
+  border-image: linear-gradient(#ff512f,
+      #dd2476,
+      #1c64ff) 1;
+  animation: rotate 2.5s ease-in infinite;
+  
+  color: white;
+  background: #cc0000;  
+  background-image: url("header.jpg");
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+    /* opacity: 0.8; */
+    display: block;
+    width: 100%;
+    margin: 0;
+
+}
+
+@keyframes rotate {
+  50% {
+    border-image: linear-gradient(360deg,
+        #ff512f,
+        #dd2476,
+        #1c64ff) 1;
+  }
+}
+
+/* Responsive layout - makes a one column layout instead of a two-column layout */
+@media (max-width: 800px) {
+  .outer {
+    flex-direction: column;
+  }
+}
+
+.outer {
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+}
+
+.div2 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.div3 {
+  text-align: center;
+  margin: 10px;
+  padding: 10px;
+  border-radius: 20px;
+}
+
+.div4 {
+  text-align: center;
+  border: 2px solid yellow;
+  border-style: dotted;
+  border-radius: 20px;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.div2:hover {
+  border-radius: 40px;
+  margin: 15px;
+  background-color: rgb(195, 226, 137);
+  
+}
+
+.div3:hover {
+  border-radius: 40px;
+  margin: 15px;
+  background-color: rgb(195, 226, 137);
+  font-weight: bolder;
+}
+
+.div4:hover {
+  border-radius: 40px;
+  margin: 15px;
+  /* background-color: rgb(188, 190, 184); */
+  font-weight: bolder;
+}
+
+h1{
+  text-align: center;
+  background-color: #6a7dd2;
+  
+}
+
+
+h3 {
+  text-align: center;
+}
+
+table {
+  width: 400px;
+  border-collapse: collapse;
+  /* overflow: hidden; */
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  margin: 10px;
+  
+}
+th,
+td {
+  padding: 15px;
+  background-color: rgba(255, 255, 255, 0.2);
+  color: #fff;
+}
+th {
+  text-align: left;
+}
+thead {
+  background-color: #55608f;
+}
+tr:hover {
+  background-color: rgba(186, 210, 167, 0.3);
+}
+td {
+  position: relative;
+}
+
+td:hover {
+    background-color: rgba(80, 109, 216, 0.2); 
+  
+}
