@@ -8,7 +8,8 @@
     "react-datepicker": "^2.0.0",
     "react-dom": "^16.7.0",
     "react-scripts": "^5.0.1",
-    "resort": "^0.1.0"
+    "resort": "^0.1.0",
+    "serve": "^13.0.2"
   },
   "scripts": {
     "start": "react-scripts start",
